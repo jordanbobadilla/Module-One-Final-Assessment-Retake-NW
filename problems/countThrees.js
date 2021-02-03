@@ -13,8 +13,15 @@
 * returns: 0
 */
 
-function countThrees() {
-
+const countThrees = n => {
+    const str = n.toString()
+    let count = 0
+    for (const element of str) {
+        if (element === "3") {
+            count++
+        }
+    }
+    return count
 }
 
 module.exports = countThrees
