@@ -13,8 +13,7 @@
 * returns: false (because the string "ten" is not a number)
 */
 
-function isMultipleOfFive() {
+const isMultipleOfFive = n => n % 5 === 0
 
-}
 
 module.exports = isMultipleOfFive
